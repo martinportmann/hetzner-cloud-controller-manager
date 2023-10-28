@@ -3,7 +3,7 @@ name: Build Syself Hetzner CCM Image
 on: # yamllint disable-line rule:truthy
   push:
     branches:
-      - main
+      - map-fix-docker
 env:
   IMAGE_NAME: hetzner-cloud-controller-manager-staging
   REGISTRY: ghcr.io/syself
