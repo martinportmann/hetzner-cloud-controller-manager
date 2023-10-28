@@ -1,4 +1,3 @@
-*
 !hcloud/
 !internal/
 !go.mod
